@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+require_relative '../config/environment.rb'
+
+
+game = Game.new
+game.intro
+game.play_game_after_intro
